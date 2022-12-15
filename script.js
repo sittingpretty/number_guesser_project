@@ -31,5 +31,5 @@ function updateScore(winner) {
      }
 }
 function advanceRound() {
-  currentRoundNumber += currentRoundNumber;
+  currentRoundNumber = currentRoundNumber + 1;
 }
