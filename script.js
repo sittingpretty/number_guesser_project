@@ -21,15 +21,13 @@ function compareGuesses(userGuess, computerGuess, targetNumber) {
   }
 }
 function updateScore(winner) {
-  if (compareGuesses() === true) {
-    winner = 'human';
+  if (winner === 'human') {
     humanScore = humanScore + 1;
-  }
-  if (compareGuesses() === false) {
-    winner = 'computer';
+      }
+  if (winner === 'computer') {
     computerScore = computerScore + 1;
-  }
-  }
+     }
+}
 function advanceRound() {
   currentRoundNumber = currentRoundNumber + 1;
 }
