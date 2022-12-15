@@ -24,12 +24,12 @@ function updateScore(winner) {
   if (compareGuesses() === true) {
     winner = 'human';
     humanScore = humanScore + 1;
-      }
+  }
   if (compareGuesses() === false) {
     winner = 'computer';
     computerScore = computerScore + 1;
-     }
-}
+  }
+  }
 function advanceRound() {
   currentRoundNumber = currentRoundNumber + 1;
 }
